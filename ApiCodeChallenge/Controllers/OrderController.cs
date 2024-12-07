@@ -41,6 +41,5 @@ namespace ApiCodeChallenge.Controllers
         _orderRepo.DeleteProductFromOrder(orderId, productId);
         return StatusCode(200, "Deleted Succesfully");
     }
-}
-    }
+  }    
 }
